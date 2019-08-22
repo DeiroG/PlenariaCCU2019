@@ -126,10 +126,10 @@ define(["require", "exports", "esri/WebScene", "esri/views/SceneView", "esri/lay
                     "z": -70000.189062614925
                 },
                 "heading": 0.509,
-                "tilt": 85.36043529090966
+                "tilt": 45.36043529090966
             });
             view.goTo(camera, {
-                duration: 5000
+                duration: 2000
             });
         }
     });
