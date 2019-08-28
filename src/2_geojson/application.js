@@ -58,6 +58,12 @@ define(["require", "exports", "esri/WebScene", "esri/views/SceneView", "esri/lay
             components: ["attribution"]
         },
     });
+    view.on("click", function(evt){
+        console.log("X: "+view.camera.position.latitude);
+        console.log("Y: "+view.camera.position.longitude);
+        console.log("Z: "+view.camera.position.z);
+        console.log("T: "+view.camera.tilt);
+        });
     window.view = view;
     var zoom = new Zoom({ view: view, layout: "horizontal" });
     var home = new Home({ view: view });
