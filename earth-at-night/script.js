@@ -193,10 +193,11 @@ require([
       position: {
         longitude: -74.2973328,
         latitude: 0.570868,
-        z: 1000000
+        z: 30000000
       },
-      heading: 0.509,
-      tilt: 37.076
+      scale: 80000000,
+      heading: 0,
+      tilt: 0
     },
     environment: {
       atmosphere: {
